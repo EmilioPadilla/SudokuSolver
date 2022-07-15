@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sudoku solver</title>
+  <style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+
+    h1 {
+        margin: 0;
+        padding: 40px;
+    }
+
+    #App {
+        width: 200px;
+        height: 200px;
+        word-break: break-all;
+        word-wrap: break-word;
+
+    }
+    #main {
+        width: 200px;
+        height: 200px;
+        border: 1px solid #c3c3c3;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+  </style>
+</head>
+<body>
+  <ul class="button-list">
+  </ul>
+  <h1>Solving every sudoku puzzle</h1>
+  <div id="main">
+    <div id="App"></div>
+  </div>
+  <script src="dist/index.js" type="module"></script>
+</body>
+</html>
